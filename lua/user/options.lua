@@ -1,6 +1,6 @@
 require("lvim.lsp.manager").setup("emmet_ls") --for html and css
 lvim.log.level = "info"
-lvim.colorscheme = "vscode"
+lvim.colorscheme = "catppuccin-mocha"
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.relativenumber = true
