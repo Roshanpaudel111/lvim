@@ -1,4 +1,5 @@
 lvim.builtin.alpha.active = false
+lvim.builtin.telescope.defaults.mappings = false
 
 lvim.plugins = {
   { "catppuccin/nvim",        name = "catppuccin",      priority = 1000 },
