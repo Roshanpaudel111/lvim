@@ -1,7 +1,6 @@
 lvim.leader = "space"
 lvim.keys.normal_mode['<leader>f'] = false
 
-
 -- Normal mode keymapping
 lvim.keys.normal_mode = {
   ["<leader>mt"] = "<cmd>MarkdownPreviewToggle<CR>",
@@ -14,6 +13,7 @@ lvim.keys.normal_mode = {
   -- Buffer related
   ['<leader>w'] = '<cmd>w<CR>',
   ['<leader>q'] = '<cmd>q<CR>',
+  ['<leader>h'] = '<cmd>nohlsearch<CR>',
   -- LSP Related
   ['<leader>rn'] = vim.lsp.buf.rename,
   ['<leader>d'] = vim.diagnostic.open_float,
@@ -24,6 +24,7 @@ lvim.keys.normal_mode = {
   -- Telsecope
   ["<leader>fr"] = "<cmd>Telescope oldfiles<CR>",
   ["<leader>ff"] = "<cmd>Telescope find_files<CR>",
+  ["<leader>fw"] = "<cmd>Telescope live_grep<CR>",
 }
 
 --Insert mode

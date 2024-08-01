@@ -5,6 +5,7 @@ lvim.builtin.gitsigns.active = false
 
 lvim.plugins = {
   {
+
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000
